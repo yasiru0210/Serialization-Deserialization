@@ -10,11 +10,12 @@ public class Person implements Serializable {
     private String name;
     private int id;
     private transient String password;
+    private transient String address;
 
-    public Person(String name, int id,String password) {
+    public Person(String name, int id) {
         this.name = name;
         this.id = id;
-        this.password=password;
+
     }
 
     @Override
