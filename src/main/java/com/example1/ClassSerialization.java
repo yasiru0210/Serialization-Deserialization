@@ -6,7 +6,7 @@ import java.io.ObjectOutputStream;
 
 public class ClassSerialization {
     public static void main(String[] args) {
-        Person person = new Person("Yasiru", 1,"ICET");
+        Person person = new Person("Yasiru", 1,"se23143!@@#");
         try {
             FileOutputStream fileOutput = new FileOutputStream("person.ser");
             ObjectOutputStream objectOutput = new ObjectOutputStream(fileOutput);
